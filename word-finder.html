@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<!--
+  COLLABORATORS:
+  
+-->
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Word Finder</title>
+
+<!-- Load any supplemental Javascript libraries here -->
+<script type="text/javascript" src="jquery-1.5.min.js"></script>
+<script type="text/javascript" src="words-small.json"></script>
+
+<!-- Uncomment this to get the full 45,407 word dictionary
+<script type="text/javascript" src="words-large.json"></script>
+ -->
+
+<script type="text/javascript" src="dictionary.js"></script>
+
+<script type="text/javascript">
+// <![CDATA[
+
+// This allows the Javascript code inside this block to only run when the page
+// has finished loading in the browser.
+$(document).ready(function() {
+	var dict = new Dictionary(words);
+	// Your code here
+
+});
+
+// ]]>
+</script>
+
+<style type="text/css">
+
+/* Your CSS here */
+html {
+    background-color: #eee;
+}
+
+</style>
+
+</head>
+<body>
+
+<!-- Your HTML here -->
+
+</body>
+</html>
